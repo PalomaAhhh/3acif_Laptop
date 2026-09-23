@@ -11,4 +11,11 @@ public class Laptop
         kosten = 1000;
         neu = true;
     }
+    
+    public Laptop(String neuHersteller, int neuKosten, boolean neuNeu)
+    {
+        hersteller = neuHersteller;
+        kosten = neuKosten;
+        neu = neuNeu; 
+    }
 }
