@@ -18,4 +18,11 @@ public class Laptop
         kosten = neuKosten;
         neu = neuNeu; 
     }
+    
+    public Laptop(String neuHersteller, boolean neuNeu)
+    {
+        hersteller = neuHersteller;
+        kosten = 1000;
+        neu = neuNeu; 
+    }
 }
