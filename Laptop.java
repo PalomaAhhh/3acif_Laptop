@@ -25,4 +25,28 @@ public class Laptop
         kosten = 1000;
         neu = neuNeu; 
     }
+    
+    public String getHersteller(){
+        return hersteller;
+    }
+    
+    public void setHersteller(String neuHersteller){
+        hersteller = neuHersteller;
+    }
+    
+    public int getKosten(){
+        return kosten;
+    }
+    
+    public void setKosten(int neuKosten){
+        kosten = neuKosten;
+    }
+    
+    public boolean getNeu(){
+        return neu;
+    }
+    
+    public void setNeu(boolean neuNeu){
+        neu = neuNeu;
+    }
 }
